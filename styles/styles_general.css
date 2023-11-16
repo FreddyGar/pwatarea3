@@ -1,0 +1,50 @@
+/*******************indice_titulo de Ejercicios *************/
+
+.boy_indice body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.indice_titulo {
+    background-color: #0c6ed0;
+    padding: 20px;
+    text-align: center;
+}
+
+.indice_titulo h1 {
+    color: #fcfcfc;
+}
+
+.indice_titulo p {
+    color: #c8c8c8;
+}
+
+.Ejercicios {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+}
+
+.Ejercicios ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left; /* Justifica el contenido a la izquierda dentro de la lista */
+    font-family: Arial, sans-serif;
+}
+
+.Ejercicios li {
+    margin: 10px 0;
+}
+
+.Ejercicios a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.Ejercicios a:hover {
+    color: #0056b3;
+}

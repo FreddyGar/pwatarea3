@@ -1,0 +1,71 @@
+/* ejercicio7-styles.css */
+h1{
+    text-align: center;
+}
+.navigation-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin: 10px 0;
+    display: inline-block;
+    position: relative;
+}
+
+.menu li a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: #333;
+}
+.menu li a:hover {
+    color: #007BFF; /* Cambia el color al pasar el ratón sobre las opciones */
+}
+
+.has-submenu .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.submenu li {
+    margin: 5px 0;
+    width: 150px; /* Ajusta el ancho de los submenús según sea necesario */
+}
+
+.has-submenu:hover .submenu {
+    display: block;
+}
+
+.return-button {
+    margin-top: 20px;
+    display: block;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.btn_retorno{
+    margin-top: 20px;
+}
+a{
+    
+    padding-left: 45%;  
+}
